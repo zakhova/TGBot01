@@ -7,6 +7,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 logging.basicConfig(level=logging.INFO)
 
 API_TOKEN = '7650355573:AAEQGqLVivjumgyniXjhiNFfYLpcYbYkGHM'
+API_TOKEN = 'YOUR_API_KEY'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
